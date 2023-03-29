@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/style.css">
     <title>MusicFy</title>
 </head>
 <body>
-    test
-    
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Ouça as suas musicas<br>de qualquer lugar!</h1>
+            <object type="image/svg+xml" data="./images/music.svg" class="left-login-image" alt="more-music-animate"></object>
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <button class="login-btn" id="login-btn">Entrar</button> 
+                <button class="cadastro-btn">Cadastre-se</button>
+                <script>
+                    document.getElementById("login-btn").addEventListener('click', function (e) {
+                        e.preventDefault()
+                        window.location.href = "/login.html"
+                    })
+                </script>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
