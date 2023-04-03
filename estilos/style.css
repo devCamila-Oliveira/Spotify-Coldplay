@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: 'Popins', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #101728;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1{
+    font-size: 3vw;
+    color: #9340ff;
+}
+
+.left-login-image{
+    width:32vw;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.cadastro-btn{
+    width: 50%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #2b134b;
+    text-decoration:none;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #9B44F2, #F24182);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #C53FB2;
+}
+.login-btn{
+    width: 50%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #2b134b;
+    text-decoration:none;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #9B44F2, #F24182);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #C53FB2;
+}
+.login-btn:focus{
+    border-color: #101728;
+}
+
+.btn:focus{
+    border-color: #101728;
+}
+
+@media only screen and (max-width: 950px){
+    .card-login{
+        width:85%
+    }
+}
+@media only screen and (max-width: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+    
+    .left-login > h1{
+        display: none;
+    }
+
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+    
+    .left-login-image{
+        width: 50vw;
+    }
+
+    .right-login{
+        width: 100%;
+        height: auto;
+    }
+
+    .card-login{
+        width: 90%;
+    }
+}
