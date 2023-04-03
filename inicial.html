@@ -6,18 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilos/styleInicial.css">
     <title>MusicFy</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/favicon/site.webmanifest">
     <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+ 
+
 </head>
-<body>
-    <div class="main-principal">
-        <h1>.!</h1>
+<body>    
+    <nav>
+        <ul>
+            <li class="brand"><img src="/images/logoMusic.png" alt="MusicFy">MusicFy</li>
+            <a href="/inicial.html" style="text-decoration: none"> Home </a>
+            <li> About </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Mix Diário</h1>
+        <div class="card">
+            <div class="songItem">
+                <img src="/images/coldplay.jpg" alt="" <span><i class="fa-regular fa-3x fa-circle-play" id="icon" style="color: #cad5e7;"></i></span>
+                <script>
+                    document.getElementById("icon").addEventListener('click', function (e) {
+                        e.preventDefault()
+                        window.location.href = "/coldplay.html"
+                    })
+                </script>
+                <div class="text">
+                    <h2>This is Coldplay</h3>
+                    <p>The essential tracks, all in..</p>
+                </div>
+                <div class="iconItem">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="songList"></div>
+        <div class="songBanner"></div>
     </div>
-    
+
+
+        <script src="https://kit.fontawesome.com/7fb464c902.js" crossorigin="anonymous"></script>
+        <script src="./src/script.js"></script>    
 </body>
 </html>
