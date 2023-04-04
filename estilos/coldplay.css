@@ -10,16 +10,6 @@ body{
     margin: 0;
     font-family: 'Popins', sans-serif;
     background-color: #101728;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    margin: 0;
-    font-family: 'Popins', sans-serif;
-    background-color: #101728;
     scroll-snap-type: y mandatory;
 }
 
@@ -64,9 +54,15 @@ nav ul li{
     height: 800px;
     
 }
-.section-2{
-    background-size: 200px;
+.section-2 > iframe{
+    background-size: 300px;
     width: 2000px;
     height: 900px;
-
 }
+
+.lists{
+    color:white;
+    font-family: 'Popins', sans-serif;
+}
+
+
