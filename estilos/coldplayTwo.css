@@ -9,7 +9,7 @@
 body{
     margin: 0;
     font-family: 'Popins', sans-serif;
-    background-color: #101728;
+    background-color: white;
     scroll-snap-type: y mandatory;
 }
 
@@ -41,32 +41,32 @@ nav ul li{
     font-size: 1.3rem;
 }
   
-.section {
+.table > th {
     scroll-snap-align: start;
-    height: 70vh;
+    height: 50vh;
     font-size: 30px;
     font-weight: bold;
+    display: flex;
 }
 
-.section-1 .coldplayHead img{
-    background-size: 100px;
-    width: 1900px;
-    height: 800px;
-    
-}
-.section-2 > iframe{
-    background-size: 300px;
-    width: 2000px;
-    height: 900px;
+.table > td {
+    scroll-snap-align: start;
+    height: 50vh;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    padding: 10px;
 }
 
-.lists{
-    color:white;
-    font-family: 'Popins', sans-serif;
-}
+.table {
+    height: 170px;
+    width: 450px;
+    border: 1px solid;
+    align-items: center;
+    border-collapse: collapse;
+  }
 
-.lists .fa-li{
-    padding: 2px;
-}
-
+.table >h3{
+    display: flex;
+  }
 

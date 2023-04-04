@@ -76,6 +76,7 @@ nav ul li{
     z-index: 10;
     margin-top: 240px;
     margin-left: 260px;
+    cursor: pointer;
 }
 
 .songItem:hover .fa-regular{
