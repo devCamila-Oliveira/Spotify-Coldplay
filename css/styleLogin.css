@@ -79,6 +79,7 @@ body{
     border-color: #101728;
 }
 
+
 @media only screen and (max-width: 600px){
     .card-cadastro{
         width:85%

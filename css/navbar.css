@@ -6,6 +6,7 @@ nav li a {
   font-family: 'Popins', sans-serif;
 }
 
+
 .nav-list>.item-navbar:hover {
   background-color: rgba(157, 96, 212, 0.5);
   cursor: pointer;

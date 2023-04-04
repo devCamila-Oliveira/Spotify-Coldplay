@@ -61,7 +61,6 @@ body{
 .textfield > input::placeholder{
     color: #f0ffff94;
 }
-
 .btn-entrar{
     width: 60%;
     padding: 16px 0px;
