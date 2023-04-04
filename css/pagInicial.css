@@ -135,3 +135,59 @@ body * {
         width: 90%;
     }
 }
+
+/* Separando em Colunas */
+.container {
+    padding: 0 100px;
+  }
+  
+  .container-main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .coluna-esquerda {
+    flex-basis: 50%;
+    padding: 0 20px 0 0;
+  }
+  
+  .coluna-direita {
+    flex-basis: 50%;
+    padding: 0 20px 0 20px;
+  }
+  
+  .primeira-coluna {
+    flex-basis: 25%;
+    padding: 20px;
+  }
+  
+  .segunda-coluna {
+    flex-basis: 25%;
+    padding: 20px;
+  }
+  
+  .terceira-coluna {
+    flex-basis: 25%;
+    padding: 20px;
+  }
+  
+  .quarta-coluna {
+    flex-basis: 25%;
+    padding: 20px;
+  }
+
+  footer {
+    background-color: #101728;
+    height: 100px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .footer {
+    color: white;
+    font-size: 15px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

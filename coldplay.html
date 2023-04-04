@@ -1,51 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos/coldplay.css">
-    <title>Coldplay</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="img/logoRedondo.png" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+  <title>MusicFy</title>
 </head>
 
-<body>
+<body class="musica">
+  <section style="height: 8vh;">
     <nav>
-        <ul>
-            <li class="brand"><img src="./images/logoMusic.png" alt="MusicFy">MusicFy</li>
-            <a href="./inicial.html" style="text-decoration: none"> Home </a>
-            <a href="./ranking.html" style="text-decoration: none"> Ranking </a>
-        </ul>
+      <div class="container h-100">
+        <div class="navbar">
+          <img src="./img/logoMusic.png" width="150px" height="150px" alt="MusicFy">
+          <div>
+            <a href="index.html" class="logo-nav">MusicFy</a>
+          </div>
+          <div class="h-100" style="display: flex; align-items: center;">
+            <div class="mobile-menu">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+            <ul class="nav-list h-100">
+              <a href="iniciar.html" class="item-navbar">
+                <li title="Home">Home</li>
+              </a>
+              <a href="ranking.html" class="item-navbar">
+                <li title="Ranking">Ranking</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
     </nav>
+  </section>
+
+  <section >
     <div class="main">
-        <section class="section section-1">
-            <div class="coldplayHead">
-                <img src="./images/stars4k.jpg" alt="">
-            </div>
-        </section>
-        <section class="section-2">
-            <iframe width="570" height="315" src="./videos/aSkyFullofStars.mp4" title="A Sky Full Of Stars"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen="always"></iframe>
-        </section>
-        <section class="section-3">
-            <div class="lists">
-                <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fa-brands fa-instagram"></i></span>Instagram
-                    <li><span class="fa-li"><i class="fa-brands fa-facebook"></i></span>Facebook
-                    <li><span class="fa-li"><i class="fa-solid fa-laptop"></i></span>Site
-                <ul>
-            </div>
-        </section>
-    </div>
-    <script src="https://kit.fontawesome.com/7fb464c902.js" crossorigin="anonymous"></script>
+      <div class="d-flex container">
+      </div>
+      <video width="920" height="640" style="display: flex; align-itens: center;" controls>
+        <source src="videos/aSkyFullofStars.mp4" type="video/mp4">
+      </video>
+  </section>
+
+  <section>
+    <footer>
+      <div class="container footer">
+        <p>&copy; 2023 MusicFy. Todos os direitos reservados.</p>
+      </div>      
+    </footer>
+  </section>
+
+  <script src="js/script.js"></script>
+  <script src="js/mobile-navbar.js"></script>
 </body>
 
 </html>
