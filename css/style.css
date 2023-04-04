@@ -39,7 +39,7 @@
   .m-10 {
     margin: 10px !important;
   }
-  
+
   
   .ml-20 {
     margin-left: 20px !important;
@@ -409,9 +409,10 @@
   
   footer {
     background-color: black;
-    height: 100px;
+    height: 120px;
     text-align: center;
     width: 100%;
+    margin-top: 450px;
   }
   
   .footer {
@@ -569,6 +570,6 @@
     display: block;
   }
   .musica{
-    background-image: url("../img/fundo.jpg");
+    background-image: url("../img/stars4k.jpg");
   }
   
